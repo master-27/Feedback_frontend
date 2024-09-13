@@ -1,0 +1,213 @@
+/* Apply the background color to the entire body */
+body {
+   /* Apply the background color to the entire body */
+body {
+    background-color: #d5cb8b;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height to center the card */
+    overflow: hidden; /* Prevents body overflow */
+  }
+  
+  /* Centered feedback form container with a card-like style */
+  .feedback-form-container {
+    background-color: #d5cb8b;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px; /* Maximum width for the card */
+    width: 100%; /* Ensures the card is responsive */
+    max-height: 90vh; /* Set max height to avoid overflow */
+    overflow-y: auto; /* Allows scrolling when content overflows */
+    margin: 20px;
+  }
+  
+  .feedback-form-container h1 {
+    text-align: center;
+    font-size: 24px;
+    background-color:white;
+    padding:8px;
+    color: #333;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .feedback-form-container form {
+    display: flex;
+    flex-direction: column;
+    
+     border-radius: 8px;
+  }
+
+  
+  /* Question group with spacing and formatting */
+  .question-group {
+    margin-bottom: 20px;
+    background-color:white;
+    padding:8px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .question-group label {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .question-group input,
+  .question-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  .question-group textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  /* Button with improved styling */
+  button {
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Additional styling to make the card responsive */
+  @media (max-width: 768px) {
+    .feedback-form-container {
+      padding: 20px;
+      max-width: 90%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .feedback-form-container {
+      padding: 15px;
+      max-width: 100%;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height to center the card */
+    overflow: hidden; /* Prevents body overflow */
+  }
+  
+  /* Centered feedback form container with a card-like style */
+  .feedback-form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px; /* Maximum width for the card */
+    width: 100%; /* Ensures the card is responsive */
+    max-height: 90vh; /* Set max height to avoid overflow */
+    overflow-y: auto; /* Allows scrolling when content overflows */
+    margin: 20px;
+  }
+  
+  .feedback-form-container h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .feedback-form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Question group with spacing and formatting */
+  .question-group {
+    margin-bottom: 20px;
+  }
+  
+  .question-group label {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .question-group input,
+  .question-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  .question-group textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  /* Button with improved styling */
+  button {
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Additional styling to make the card responsive */
+  @media (max-width: 768px) {
+    .feedback-form-container {
+      padding: 20px;
+      max-width: 90%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .feedback-form-container {
+      padding: 15px;
+      max-width: 100%;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  

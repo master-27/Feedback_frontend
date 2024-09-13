@@ -1,0 +1,42 @@
+.admin-dashboard {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .dashboard-header {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .dashboard-content {
+    margin-top: 20px;
+  }
+  
+  .overview {
+    margin-bottom: 20px;
+  }
+  
+  .teacher-list {
+    margin-bottom: 20px;
+  }
+  
+  .teacher-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .teacher-list th, .teacher-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .teacher-list th {
+    background-color: #f2f2f2;
+  }
+  
+  .teacher-feedback {
+    margin-top: 20px;
+  }
+  
